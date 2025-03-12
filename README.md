@@ -7,9 +7,7 @@ This project consists of two main parts:
 ## Table of Contents
 - [Project Information](#project-information)
 - [Frontend Setup](#frontend-setup)
-  - [How to Run](#how-to-run-frontend)
 - [Backend Setup](#backend-setup)
-  - [How to Run](#how-to-run-backend)
 
 ## Project Information
 

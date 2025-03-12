@@ -34,7 +34,7 @@ To run the frontend (React) application locally, follow the instructions below.
     npm install
     npm start / npm run dev
 
-3. You can verify the app using browser using this URL http://localhost:5173/api/items
+3. You can verify the app using browser using this URL http://localhost:3000
 
 
 ## Backend Setup 

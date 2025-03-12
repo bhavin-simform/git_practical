@@ -44,7 +44,7 @@ To run the frontend (React) application locally, follow the instructions below.
     npm install
     npm start
 
-2. Backend application will start/run in this URL http://localhost:8080
+2. Backend application will start/run in this URL http://localhost:8080/api/items
 
 
 

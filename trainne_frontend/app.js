@@ -8,7 +8,7 @@ function App() {
   
   // Fetch data from the backend
   useEffect(() => {
-    axios.get('http://localhost:5000/api/items')
+    axios.get('http://localhost:5173/api/items')
       .then(response => {
         setItems(response.data);
       })
@@ -20,7 +20,7 @@ function App() {
   // Add a new item
   const handleAddItem = () => {
     const item = { id: items.length + 1, name: newItem };
-    axios.post('http://localhost:5000/api/items', item)
+    axios.post('http://localhost:5173/api/items', item)
       .then(response => {
         setItems([...items, response.data]);
         setNewItem('');
@@ -32,7 +32,7 @@ function App() {
 
   // Delete an item
   const handleDeleteItem = (id) => {
-    axios.delete(`http://localhost:5000/api/items/${id}`)
+    axios.delete(`http://localhost:5173/api/items/${id}`)
       .then(() => {
         setItems(items.filter(item => item.id !== id));
       })

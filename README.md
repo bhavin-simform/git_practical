@@ -40,7 +40,7 @@ To run the frontend (React) application locally, follow the instructions below.
 ## Backend Setup 
 
 1. Install the packges using 
-    ``bash
+    ```bash
     npm install
     npm start
 

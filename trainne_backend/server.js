@@ -34,6 +34,6 @@ app.delete('/api/items/:id', (req, res) => {
 
 const PORT = 8080;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`/api/items);
+  console.log(`Server running on http://localhost:${PORT}/api/items`);
 });
 

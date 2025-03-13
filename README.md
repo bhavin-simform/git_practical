@@ -45,7 +45,7 @@ To run the frontend (React) application locally, follow the instructions below.
 1. go to the backend directory by run this command
    ```bash
    cd ..
-   cd trainne-backend
+   cd trainne_backend
 
 2. Install the packges using 
     ```bash

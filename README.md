@@ -30,7 +30,7 @@ To run the frontend (React) application locally, follow the instructions below.
 
 2. go to the frontend directory
    ```bash
-   cd git_practical/trainee_frontend
+   cd git_practical/trainee_frontend/
 
 3. install the package if necessary:
     ```bash

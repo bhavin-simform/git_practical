@@ -27,14 +27,17 @@ To run the frontend (React) application locally, follow the instructions below.
 1. Clone the repository:
    ```bash
    git clone https://github.com/bhavin-simform/git_practical
-   cd trainee_frontend
 
-2. install the package if necessary:
+2. go to the frontend directory
+   ```bash
+   cd git_practical/trainee_frontend
+
+3. install the package if necessary:
     ```bash
     npm install
     npm start 
 
-3. You can verify the app using browser using this URL http://localhost:3000
+4. You can verify the app using browser using this URL http://localhost:3000
 
 
 ## Backend Setup 

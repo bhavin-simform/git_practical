@@ -20,31 +20,36 @@ This is the simple react app in which user can see the React logo and in backend
 ---
 
 To run the frontend (React) application locally, follow the instructions below.
-
+## Note: Make sure you have latest version of Node and npm installed in your system
 
 ## Frontend Setup
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/bhavin-simform/git_practical
-   cd trainee_project/trainee_frontend
+   cd trainee_frontend
 
 2. install the package if necessary:
     ```bash
     npm install
-    npm start / npm run dev
+    npm start 
 
 3. You can verify the app using browser using this URL http://localhost:3000
 
 
 ## Backend Setup 
 
-1. Install the packges using 
+1. go to the backend directory by run this command
+   ```bash
+   cd ..
+   cd trainne-backend
+
+2. Install the packges using 
     ```bash
     npm install
     npm start
 
-2. Backend application will start/run in this URL http://localhost:8080/api/items
+3. Backend application will start/run in this URL http://localhost:8080/api/items
 
 
 
